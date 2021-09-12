@@ -1,0 +1,43 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 150px;
+  background-color: rgba(13, 18, 28, 0.877);
+  color: #889abd;
+}
+
+#editorContainer {
+  display: flex;
+  justify-content: left;
+}
+
+#logo2 {
+  width: 100px;
+  height: 40px;
+  background-color: cadetblue;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#editor img {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: #141b29;
+}
+
+#pageEditor {
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#pageEditor a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#pageEditor a:hover {
+  color: #889abd;
+}

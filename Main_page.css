@@ -1,0 +1,88 @@
+/* Scrollbar Details */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #84868b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #31415f;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #133C55;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.thumbnail {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+
+#container1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 30px;
+}
+
+#container2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 15px;
+}
+
+.description {
+  color: #da6302;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.description:hover {
+  color: azure;
+}
+
+#store a,
+#quiz a,
+#contact a,
+#aboutUs a {
+  text-decoration: none;
+}
+
+#store a:hover {
+  opacity: 0.6;
+  color: aliceblue;
+}
+
+#quiz a:hover {
+  opacity: 0.6;
+}
+
+#contact a:hover {
+  opacity: 0.6;
+}
+
+#aboutUs a:hover {
+  opacity: 0.6;
+}
+
+#backToTop img {
+  height: 50px;
+  width: 50px;
+}
+
+#backToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 100px;
+}
